@@ -7,14 +7,14 @@
 
 import Foundation
 
-class Greeting {
+public class Greeting {
     var name: String
     
-    init(name: String) {
+    public init(name: String) {
         self.name = name
     }
     
-    func hello() -> String {
+    public func hello() -> String {
         return "Hello \(self.name)"
     }
 }
